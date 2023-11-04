@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1b1b1b;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    padding: 25px;
+    background-color: #161616;
+    box-shadow: 0px 15px 60px #00FF7F;
+    border: 1px solid #2b9962;
+    border-radius: 10px;
+    color: #00FF7F;
+}
+
+form {
+    width: 100%;
+}
+
+.input-area {
+    margin-top: 10px;
+}
+
+h1 {
+    color: #00FF7F;
+    margin: 0 0 20px 0;
+}
+
+.form-inp {
+    padding: 10px;
+    background: #161616;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.form-inp:focus-within {
+    border: 1px solid #00FF7F;
+}
+
+.form-inp input {
+    width: 100%;
+    background: none;
+    font-size: 14px;
+    color: #00FF7F;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form-inp input:focus {
+    outline: none;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 8px 0;
+    color: #00FF7F;
+}
+
+.select-container select {
+    width: 100%;
+    border: none;
+    background-color: #161616;
+    color: #00FF7F;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+}
+
+.buttonStyle {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 2px;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(46, 236, 135);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(121, 86%, 40%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(34, 240, 68) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: hsl(109, 89%, 43%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(81, 240, 23) 0px 0px 0px 0px;
+    transform: translateY(8px);
+    transition: 100ms;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 5px 0;
+}

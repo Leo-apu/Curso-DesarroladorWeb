@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercitacion-Clase1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Participaron en la Resolucion
+            Leandro Victorino Cruz
+            Claudio Olivera Gonzalez
+            Jonata Huarte
+            Gisela Gomez
+            Andres Mobrici
+            Fernando Manuel Ledesma Sanchez
+            Rodirgo Aubry
+    -->
+    <div class="card">
+        <h1>Solicitud de Contactos</h1>
+        <form onsubmit="datos()">
+            <div class="input-area">
+                <div class="form-inp">
+                    <input placeholder="Nombre" type="text" id="nombre" name="nombre" autocomplete="off" required>
+                </div>
+    
+                <div class="form-inp">
+                    <input placeholder="Apellido" type="text" id="apellido" name="apellido" autocomplete="off" required>
+                </div>
+    
+                <div class="form-inp">
+                    <input placeholder="DNI" type="text" id="dni" name="dni" autocomplete="off" required>
+                </div>
+    
+                <div class="form-inp">
+                    <input placeholder="Email" type="email" id="email" name="email" autocomplete="off" required>
+                </div>
+                
+                <div class="form-inp">
+                    <input placeholder="Telefono" type="tel" id="telefono" name="telefono" autocomplete="off" required>
+                </div>
+    
+                <label for="tipoSeguro">Tipo de Seguro:</label>
+                <div class="form-inp select-container">
+                    <select id="tipoSeguro" name="tipoSeguro" required>
+                        <option value="basico">Básico - $500</option>
+                        <option value="intermedio">Intermedio - $1000</option>
+                        <option value="premium">Premium - $1500</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="buttonStyle">
+                <button type="submit" class="button" ">
+                    <p>Solicitar Contacto</p>
+                </button>
+            </div>
+        </form>
+    </div>
+    
+    <footer class="footer">
+        <p> GRUPO B - ARGENTINA PROGRAMA - @2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
