@@ -1,0 +1,50 @@
+[
+    {
+      "nombre": "Zapatillas",
+      "descripcion": "Estas zapatillas negras deportivas Nike son perfectas para el entrenamiento o el día a día. Tienen una suela de goma que proporciona una buena tracción y una amortiguación suave que te ayuda a absorber los impactos. Están hechas de un material duradero que te durará mucho tiempo.",
+      "precio": 100,
+      "sku": "ZAP123",
+      "cantidadDisponible": 50,
+      "imagen": "https://sporting.vtexassets.com/arquivos/ids/692947-800-800?width=800&height=800&aspect=true"
+    },
+    {
+      "nombre": "Remera negra",
+      "descripcion": "Esta remera negra de algodón marca Diadora es una prenda versátil que puedes usar tanto para entrenar como para el día a día. Está hecha de un material transpirable y cómodo que te mantendrá fresco y seco durante tus actividades.La remera tiene un corte clásico con cuello redondo y mangas cortas. El diseño es simple y elegante.",
+      "precio": 20,
+      "sku": "REM456",
+      "cantidadDisponible": 100,
+      "imagen": "https://sporting.vtexassets.com/arquivos/ids/465219-800-800?width=800&height=800&aspect=true"
+    },
+    {
+      "nombre": "Gorra verde",
+      "descripcion": "Esta gorra verde ajustable es perfecta para proteger tu cabeza del sol o la lluvia. Tiene una visera curva que te protege los ojos y una banda ajustable que te permite ajustarla a la medida de tu cabeza. Está hecha de un material ligero y transpirable que te mantendrá cómodo durante todo el día.",
+      "precio": 15,
+      "sku": "GOR789",
+      "cantidadDisponible": 30,
+      "imagen": "https://sporting.vtexassets.com/arquivos/ids/674759-800-800?width=800&height=800&aspect=true"
+    },
+    {
+      "nombre": "Pantalón corto",
+      "descripcion": "Este pantalón deportivo corto marca Wilson es perfecto para el entrenamiento o el descanso. Está hecho de un material transpirable que te mantendrá cómodo y fresco. Tiene un corte holgado que te brinda libertad de movimiento y un acabado suave que se siente agradable en la piel.",
+      "precio": 25,
+      "sku": "PAN012",
+      "cantidadDisponible": 40,
+      "imagen": "https://sporting.vtexassets.com/arquivos/ids/288020-800-800?width=800&height=800&aspect=true"
+    },
+    {
+      "nombre": "Calzas",
+      "descripcion": "Estas calzas deportivas de mujer están hechas de un material transpirable y elástico que te mantendrá cómoda y fresca durante tus entrenamientos. Tienen un corte ajustado que te brinda un buen soporte y un acabado suave que se siente agradable en la piel. Son perfectas para correr, hacer yoga o cualquier otra actividad física.",
+      "precio": 25,
+      "sku": "CAL011",
+      "cantidadDisponible": 30,
+      "imagen": "https://sporting.vtexassets.com/arquivos/ids/977018-800-800?width=800&height=800&aspect=true"
+    },
+    {
+      "nombre": "Top rosa",
+      "descripcion": "Este top rosa para mujer es perfecto para el entrenamiento o el día a día. Está hecho de un material transpirable que te mantendrá cómoda y fresca. Tiene un corte ajustado que te brinda un buen soporte y un acabado suave que se siente agradable en la piel.",
+      "precio": 16,
+      "sku": "TOP001",
+      "cantidadDisponible": 30,
+      "imagen": "https://sporting.vtexassets.com/arquivos/ids/375556-800-800?width=800&height=800&aspect=true"
+    }
+  ]
