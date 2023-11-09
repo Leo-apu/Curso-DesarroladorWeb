@@ -1,0 +1,92 @@
+h3 {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.producto {
+    background-color: rgb(213, 184, 228);
+    border-radius: 15px;
+    padding: 2rem 8rem 1rem 1rem;
+    margin: 10px;
+    width: 70%;
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.button_comprar {
+    display: flex;
+    margin-left: 4.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidad_disponible, .sku{
+    margin: 0;
+}
+
+.descripcion{
+    margin-left: 2rem;
+    text-align: left;
+}
+
+@media only screen and (max-width: 930px) {
+    .producto {
+        width: 70%;
+        flex-direction: column;
+        padding: 0.5rem;
+        margin-right:3rem ;
+        max-height: 80vh; 
+        overflow-y: scroll; 
+    }
+    .descripcion {
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+    }
+    .producto img {
+        max-width: 100%;
+        height: auto;
+    }
+    .button_comprar {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .producto {
+        width: 100%;
+        padding: 1rem;
+    }
+    .descripcion {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .producto {
+        width: 100%;
+        padding: 0.5rem;
+    }
+    .descripcion {
+        font-size: 0.8rem;
+    }
+}
